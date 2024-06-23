@@ -1,9 +1,3 @@
 #!/bin/bash
-cd /App
-node --version
-npm --version
-yarn --version
-
-
-## Custom command tu run the app
-ls -la && yarn install && yarn start
+## Force npm package to be install + start your application
+cd /App && yarn install && yarn start
